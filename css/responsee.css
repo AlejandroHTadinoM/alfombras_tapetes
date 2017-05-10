@@ -15,10 +15,11 @@ body {
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
-  color:#444;
+  color:#37474F;
+  background-attachment: fixed;
   }
 h1, h2, h3, h4, h5, h6 {
-  color:#444;
+  color:#37474F;
   font-weight: normal;
   margin:0.2em 0 0.2em 0;    
 }
@@ -30,7 +31,7 @@ h5 {font-size:1em;}
 h6 {font-size:0.9em;}    
 a, a:link, a:visited, a:hover, a:active {
   text-decoration:none;
-  color:#444;
+  color:#37474F;
 }
 img {
   border:0;
@@ -485,4 +486,52 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+
+.logo {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-lead {
+  margin-top: 2rem;
+}
+
+.box-title {
+  font-size: 1.3em
+}
+
+.cta {
+  background-color: #EF5350;
+  padding: 1rem 2rem;
+  border-radius: .6rem;
+  font-weight: 700;
+  font-size: 1.2em;
+  transition: background-color .4s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #B71C1C;
+}
+
+.acc {
+  color: #EF5350;
+}
+
+.company {
+  text-transform: uppercase;
+}
+
+.company:after {
+  display: block;
+  content: "";
+  width: 10%;
+  height: 1px;
+  background-color: #EF5350;
+  margin-top: 1rem;
 }
